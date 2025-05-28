@@ -26,4 +26,7 @@ Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted -Scope CurrentUse
   3.Enter the details of the Folder path and Power BI Workspace details into the .ps1 file
   4.Try calling the .ps1 from the .bat file
 
-NOTE: .SQL file converted from .JSON output is in the format of the Microsoft POWER QUERY. Hence remove the unnecessary power query code in the SQL query before running.
+NOTE: 
+
+  1.SQL file converted from .JSON output is in the format of the Microsoft POWER QUERY. Hence remove the unnecessary power query code in the SQL query before running.
+  2.Use Windows Task Scheduler to run the .bat files at desired time as a automation for dataflow and report back-up from Power BI workspace
